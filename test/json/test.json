@@ -1,0 +1,10 @@
+{
+  "abc": "abc",     //comment abc
+  "x": 123,         //中文备注
+  /*
+    multi-line comment
+  */
+  "y": {
+    "test": "test"  /* comment test */
+  }
+}
