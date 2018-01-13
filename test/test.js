@@ -14,8 +14,6 @@ describe('json, test', () => {
       var json2 = fiw.json
       var txt2 = json.minify(`{"a":1}/*abc*/`)
       assert.equal(txt2, `{"a":1}`);
-
-      console.error(fiw.xx)
     });
 
 });

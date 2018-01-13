@@ -4,6 +4,7 @@ var test = require("test");
 test.setup();
 
 run('./test')
+run('./db/test')
 run('./json/test')
 run('./kv/test')
 
